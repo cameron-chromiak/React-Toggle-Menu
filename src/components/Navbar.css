@@ -1,0 +1,39 @@
+.spacer{
+  flex: 1;
+}
+.navbar-items li{
+  padding: 0 .5rem;
+}
+.navbar-items ul{
+  margin: 0 1rem 0 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.navbar-logo a{
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1rem;
+  margin-left: .5rem;
+}
+
+.navbar{
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background: #4080bf;
+  height: 56px;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
