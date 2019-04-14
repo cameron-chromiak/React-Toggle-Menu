@@ -8,7 +8,7 @@ const Navbar = props => (
   <header className='navbar'>
     <nav className='navbar-nav'>
       <div>
-        <SideBarToggleButton/>
+        <SideBarToggleButton click={props.handleToggleClick}/>
       </div>
       <div className='navbar-logo'><a href="#">LOGO</a></div>
       <div className="spacer"/>
