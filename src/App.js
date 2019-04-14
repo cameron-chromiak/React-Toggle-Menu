@@ -20,11 +20,9 @@ class App extends Component {
   }
 
   render() {
-    let sideBar
     let backdrop
 
     if(this.state.sideBarOpen){
-      sideBar = <SideBar/>
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
 
@@ -32,7 +30,7 @@ class App extends Component {
       <div className="App">
         <Navbar handleToggleClick={this.toggleSideBar}/>
         {backdrop}
-        {sideBar}
+        <SideBar show={this.state.sideBarOpen}/>
         <main className='main'>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ut dicta, reprehenderit delectus libero quod atque velit doloremque magnam adipisci.</p>
         </main>
