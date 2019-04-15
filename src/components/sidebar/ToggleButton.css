@@ -20,3 +20,9 @@
   height: 1px;
   background: white;
 }
+
+@media(min-width: 768px){
+  .toggle-button{
+    display: none;
+  }
+  }

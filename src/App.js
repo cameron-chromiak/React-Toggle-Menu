@@ -4,6 +4,9 @@ import Navbar from './components/Navbar'
 import SideBar from './components/sidebar/SideBar.js'
 import './App.css'
 import Backdrop from './components/backdrop/Backdrop'
+import Services from './components/sections/Services'
+import Portfolio from './components/sections/Portfolio'
+
 
 class App extends Component {
 
@@ -32,7 +35,8 @@ class App extends Component {
         {backdrop}
         <SideBar show={this.state.sideBarOpen}/>
         <main className='main'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ut dicta, reprehenderit delectus libero quod atque velit doloremque magnam adipisci.</p>
+          <Services/>
+          <Portfolio/>
         </main>
       </div>
     );

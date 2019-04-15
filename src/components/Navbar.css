@@ -1,21 +1,21 @@
 .spacer{
   flex: 1;
 }
-.navbar-items li{
+.custom-navbar-items li{
   padding: 0 .5rem;
 }
-.navbar-items ul{
+.custom-navbar-items ul{
   margin: 0 1rem 0 0;
   padding: 0;
   display: flex;
 }
 
-.navbar-nav{
+.custom-navbar-nav{
   display: flex;
   align-items: center;
   height: 100%;
 }
-.navbar-logo a{
+.custom-navbar-logo a{
   color: white;
   font-size: 1.5rem;
   text-decoration: none;
@@ -23,7 +23,7 @@
   margin-left: .5rem;
 }
 
-.navbar{
+.custom-navbar{
   width: 100vw;
   position: fixed;
   top: 0;
@@ -36,4 +36,10 @@ li{
 }
 a{
   text-decoration: none;
+}
+
+@media(max-width: 768px){
+  .custom-navbar-items{
+    display: none;
+  }
 }
